@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB7BEC892390133F00688028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BEC882390133F00688028 /* AppDelegate.m */; };
+		BB7BEC942390134100688028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7BEC932390134100688028 /* Assets.xcassets */; };
+		BB7BEC9A2390134100688028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BEC992390134100688028 /* main.m */; };
+		BB7BECA22390141500688028 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BECA12390141500688028 /* RootViewController.m */; };
+		BB7BECAA2390144100688028 /* UIView+HitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BECA62390144100688028 /* UIView+HitTest.m */; };
+		BB7BECAB2390144100688028 /* UIView+HitTestPublicMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BECA72390144100688028 /* UIView+HitTestPublicMethods.m */; };
+		BB7BECAC2390144100688028 /* RedView+HitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BECA82390144100688028 /* RedView+HitTest.m */; };
+		BB7BECB6239014B300688028 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BECAF239014B200688028 /* YellowView.m */; };
+		BB7BECB7239014B300688028 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BECB1239014B200688028 /* GreenView.m */; };
+		BB7BECB8239014B300688028 /* BrownView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BECB2239014B200688028 /* BrownView.m */; };
+		BB7BECB9239014B300688028 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BECB4239014B200688028 /* RedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB7BEC842390133F00688028 /* HitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7BEC872390133F00688028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB7BEC882390133F00688028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB7BEC932390134100688028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB7BEC982390134100688028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7BEC992390134100688028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB7BECA02390141500688028 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BB7BECA12390141500688028 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BB7BECA42390144100688028 /* UIView+HitTestPublicMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HitTestPublicMethods.h"; sourceTree = "<group>"; };
+		BB7BECA52390144100688028 /* RedView+HitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RedView+HitTest.h"; sourceTree = "<group>"; };
+		BB7BECA62390144100688028 /* UIView+HitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitTest.m"; sourceTree = "<group>"; };
+		BB7BECA72390144100688028 /* UIView+HitTestPublicMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitTestPublicMethods.m"; sourceTree = "<group>"; };
+		BB7BECA82390144100688028 /* RedView+HitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RedView+HitTest.m"; sourceTree = "<group>"; };
+		BB7BECA92390144100688028 /* UIView+HitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HitTest.h"; sourceTree = "<group>"; };
+		BB7BECAE239014B200688028 /* BrownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrownView.h; sourceTree = "<group>"; };
+		BB7BECAF239014B200688028 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
+		BB7BECB0239014B200688028 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		BB7BECB1239014B200688028 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		BB7BECB2239014B200688028 /* BrownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrownView.m; sourceTree = "<group>"; };
+		BB7BECB3239014B200688028 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		BB7BECB4239014B200688028 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		BB7BECB5239014B200688028 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7BEC812390133F00688028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB7BEC7B2390133F00688028 = {
+			isa = PBXGroup;
+			children = (
+				BB7BEC862390133F00688028 /* HitTest */,
+				BB7BEC852390133F00688028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7BEC852390133F00688028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7BEC842390133F00688028 /* HitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7BEC862390133F00688028 /* HitTest */ = {
+			isa = PBXGroup;
+			children = (
+				BB7BEC872390133F00688028 /* AppDelegate.h */,
+				BB7BEC882390133F00688028 /* AppDelegate.m */,
+				BB7BECA02390141500688028 /* RootViewController.h */,
+				BB7BECA12390141500688028 /* RootViewController.m */,
+				BB7BECAD239014B200688028 /* Views */,
+				BB7BECA32390144100688028 /* HitTestClasses */,
+				BB7BEC932390134100688028 /* Assets.xcassets */,
+				BB7BEC982390134100688028 /* Info.plist */,
+				BB7BEC992390134100688028 /* main.m */,
+			);
+			path = HitTest;
+			sourceTree = "<group>";
+		};
+		BB7BECA32390144100688028 /* HitTestClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BB7BECA42390144100688028 /* UIView+HitTestPublicMethods.h */,
+				BB7BECA72390144100688028 /* UIView+HitTestPublicMethods.m */,
+				BB7BECA52390144100688028 /* RedView+HitTest.h */,
+				BB7BECA82390144100688028 /* RedView+HitTest.m */,
+				BB7BECA92390144100688028 /* UIView+HitTest.h */,
+				BB7BECA62390144100688028 /* UIView+HitTest.m */,
+			);
+			path = HitTestClasses;
+			sourceTree = "<group>";
+		};
+		BB7BECAD239014B200688028 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB7BECB0239014B200688028 /* RedView.h */,
+				BB7BECB4239014B200688028 /* RedView.m */,
+				BB7BECAE239014B200688028 /* BrownView.h */,
+				BB7BECB2239014B200688028 /* BrownView.m */,
+				BB7BECB3239014B200688028 /* YellowView.h */,
+				BB7BECAF239014B200688028 /* YellowView.m */,
+				BB7BECB5239014B200688028 /* GreenView.h */,
+				BB7BECB1239014B200688028 /* GreenView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7BEC832390133F00688028 /* HitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7BEC9D2390134100688028 /* Build configuration list for PBXNativeTarget "HitTest" */;
+			buildPhases = (
+				BB7BEC802390133F00688028 /* Sources */,
+				BB7BEC812390133F00688028 /* Frameworks */,
+				BB7BEC822390133F00688028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HitTest;
+			productName = HitTest;
+			productReference = BB7BEC842390133F00688028 /* HitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7BEC7C2390133F00688028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Avery;
+				TargetAttributes = {
+					BB7BEC832390133F00688028 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = BB7BEC7F2390133F00688028 /* Build configuration list for PBXProject "HitTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB7BEC7B2390133F00688028;
+			productRefGroup = BB7BEC852390133F00688028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7BEC832390133F00688028 /* HitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7BEC822390133F00688028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7BEC942390134100688028 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7BEC802390133F00688028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7BECAC2390144100688028 /* RedView+HitTest.m in Sources */,
+				BB7BECAA2390144100688028 /* UIView+HitTest.m in Sources */,
+				BB7BECB7239014B300688028 /* GreenView.m in Sources */,
+				BB7BECAB2390144100688028 /* UIView+HitTestPublicMethods.m in Sources */,
+				BB7BECB8239014B300688028 /* BrownView.m in Sources */,
+				BB7BECB6239014B300688028 /* YellowView.m in Sources */,
+				BB7BEC892390133F00688028 /* AppDelegate.m in Sources */,
+				BB7BEC9A2390134100688028 /* main.m in Sources */,
+				BB7BECB9239014B300688028 /* RedView.m in Sources */,
+				BB7BECA22390141500688028 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB7BEC9B2390134100688028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB7BEC9C2390134100688028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7BEC9E2390134100688028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Avery.HitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB7BEC9F2390134100688028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Avery.HitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7BEC7F2390133F00688028 /* Build configuration list for PBXProject "HitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7BEC9B2390134100688028 /* Debug */,
+				BB7BEC9C2390134100688028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7BEC9D2390134100688028 /* Build configuration list for PBXNativeTarget "HitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7BEC9E2390134100688028 /* Debug */,
+				BB7BEC9F2390134100688028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB7BEC7C2390133F00688028 /* Project object */;
+}
