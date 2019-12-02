@@ -29,5 +29,5 @@ RedView -> BrownView -> YellowView -> GreenView<br>
 <br>
 
 
-【 为了规避不可预见的风险、以及性能方面的考虑、最好使用” RedView+HitTest”分类而不是去使用”UIView+HitTest”分类 】
+【 为了规避不可预见的风险、以及性能方面的考虑、最好创建类似于”RedView+HitTest”的分类而不是直接使用”UIView+HitTest”分类 】
 ------------------------
